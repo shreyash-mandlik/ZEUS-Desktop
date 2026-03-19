@@ -1,0 +1,27 @@
+# ⚡ ZEUS Desktop — Requirements
+# Install with: pip install -r requirements_desktop.txt
+
+# Core AI
+groq==0.13.0
+
+# Voice
+pyttsx3==2.90
+SpeechRecognition==3.10.4
+pyaudio==0.2.14
+
+# Web features
+requests==2.31.0
+yfinance==0.2.36
+wikipedia==1.4.0
+pyjokes==0.6.0
+
+# System control
+pyautogui==0.9.54
+pyperclip==1.9.0
+
+# Utilities
+python-dotenv==1.0.0
+
+# NOTE: tkinter comes built-in with Python — no install needed.
+# NOTE: On Windows, pyaudio may need: pip install pipwin && pipwin install pyaudio
+# NOTE: On Linux: sudo apt-get install python3-pyaudio portaudio19-dev
