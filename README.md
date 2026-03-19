@@ -271,6 +271,42 @@ Copy to any Windows PC — no Python needed!
 
 ---
 
+## 🖱️ How to Open ZEUS Daily (After Setup)
+
+Once setup is done, you never need to touch the terminal again.
+
+### Option 1 — One-click Desktop Shortcut (Recommended)
+
+Create a `Launch ZEUS.bat` file in your project folder with this content:
+```bat
+@echo off
+cd /d "D:\Shreyash_Projects\ZEUSDesktop"
+python zeus_desktop.py
+```
+
+Then:
+1. **Right-click** `Launch ZEUS.bat` → **Create Shortcut**
+2. **Drag the shortcut to your Desktop**
+3. **Double-click it anytime** to open ZEUS instantly
+
+> 💡 `.bat` files can't be pinned to taskbar directly. Use the desktop shortcut instead.
+
+### Option 2 — From VS Code Terminal
+
+Open VS Code in the project folder and run:
+```bash
+python zeus_desktop.py
+```
+
+### Option 3 — From any terminal
+
+```bash
+cd D:\Shreyash_Projects\ZEUSDesktop
+python zeus_desktop.py
+```
+
+---
+
 ## ❓ Troubleshooting
 
 | Problem | Fix |
